@@ -1,0 +1,8 @@
+development:
+  adapter: mysql
+  encoding: latin1
+  reconnect: false
+  database: test_development
+  pool: 5
+  username: root
+  password:
