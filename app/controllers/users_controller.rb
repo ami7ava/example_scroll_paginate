@@ -14,7 +14,7 @@ class UsersController < ApplicationController
   # GET    /users/fetch_by_offset
   def fetch_by_offset
     respond_to do |format|
-      format.js { }
+      format.js { render :text => 'success' }
     end
   end
 
